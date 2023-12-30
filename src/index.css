@@ -1,13 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav{
+  background: rgba(255, 255, 255, 0.90);
+box-shadow: 0px -1px 24px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(45px);
 }
+.nav-link{
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.herosection{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(36.25% 42.96% at 17.08% 34.62%, #1B206D 0%, #181940 100%);
+  flex-shrink: 0;
+}
+
+.heroimage{
+  width: 700px;
+  height: 600px;
+  background-image: url('../public/map.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+ /* border: 1px solid white; */
+ background-position: bottom right;
+  
+}
+
+.btn-primary{
+  background: #253062;
+  padding: 8px 24px;
+  border-radius: 40px;
+  border: 1px solid #F0EFEE;
+  box-shadow: 0px 2px 20px -5px rgba(91, 119, 245, 0.40);
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  
+}
+
+.text-yellow{
+  color: var(--Accent, #FFC300);
+  
+}
+.text-gray{
+  color: var(--white-gray, #D6D3D3);
+  
+}
+
+.btn-secondary{
+ display: flex;
+ overflow: hidden;
+ padding: 8px 24px;
+ border-radius: 40px;
+ border: 1px solid #3FA8FF;
+ box-shadow: 0px 2px 20px -5px rgba(91, 119, 245, 0.40);
+ justify-content: center;
+ align-items: center;
+ gap: 8px;
+ color: #253062;
+ background-color: white;
+ backdrop-filter: blur(30px);
+  
+}
+
+/* display */
+
+.display-1{
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  
+}
+
+
+
+
+
+
+/* Features cards */
+
+.features{
+ 
+  background-image: url('../public/decoration.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.feature-card, .feature-card * {
+  box-sizing: border-box;
+  }
+.feature-card {
+  background: rgba(255, 255, 255, 0.60);
+  border-radius: 8px; 
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(128.81deg, rgba(205, 247, 230, 1.00) 0%,rgba(247, 249, 215, 1.00) 39.664292335510254%,rgba(205, 247, 230, 1.00) 100%);
+  border-image-slice: 1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  height: 280px;
+  position: relative;
+  box-shadow:  0px 0px 30px -4px rgba(0, 0, 0, 0.20);
+  overflow: hidden;
+  backdrop-filter: blur(45px);
+  }
+
+.icon {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  }
+
+.website {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  }
+
+.heading {
+  color: linear-gradient(111.58deg, rgba(124, 7, 146, 1.00) 0%,rgba(0, 12, 36, 1.00) 100%);
+  text-align: left;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+  height: 49px;
+  }
+
+.acceptez-tous-les-moyens-de-paiement-sur-votre-site-web-int-grez-une-solution-de-demandes-de-paiement-par-lien-dans-votre-solution-boutique-site-e-commerce-etc {
+  color: rgba(16, 16, 16, 0.80);
+  text-align: left;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  }
+
