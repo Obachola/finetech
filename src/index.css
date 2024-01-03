@@ -4,6 +4,7 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
 }
 
 nav{
@@ -95,10 +96,10 @@ backdrop-filter: blur(45px);
 
 .features{
  
-  background-image: url('../public/decoration.png');
+  /* background-image: url('../public/decoration.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: contain; */
 }
 
 .feature-card, .feature-card * {
@@ -107,10 +108,10 @@ backdrop-filter: blur(45px);
 .feature-card {
   background: rgba(255, 255, 255, 0.60);
   border-radius: 8px; 
-  border-width: 2px;
+  /* border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(128.81deg, rgba(205, 247, 230, 1.00) 0%,rgba(247, 249, 215, 1.00) 39.664292335510254%,rgba(205, 247, 230, 1.00) 100%);
-  border-image-slice: 1;
+  border-image-slice: 1; */
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -164,4 +165,15 @@ backdrop-filter: blur(45px);
   position: relative;
   align-self: stretch;
   }
+
+  /* Section 3 */
+
+  .s3{
+    height: 90vh;
+    background-color: white;
+
+  }
+
+  
+  
 

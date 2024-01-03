@@ -64,6 +64,18 @@ const MainContent = () => {
             
         </div>
       </section>
+
+      <section className='py-5 s3'>
+        <div className='container d-flex flex-row justify-content-around'>
+            <div className='box-img  '>
+              Image here
+            </div>
+
+            <div className='content'>
+              <h2>Bluepoint</h2>
+            </div>
+        </div>
+      </section>
     </div>
   );
 };
