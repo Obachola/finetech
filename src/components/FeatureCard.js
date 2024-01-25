@@ -6,12 +6,14 @@ const FeatureCard = () => {
     <div >
    
 <div className="feature-card" >
-  	<div className="icon" >
+  	<div className="heading-wrapper">
+	  <div className="icon" >
     		<img className="website" src="website0.png" />
   	</div>
-  	<div className="h5" >
+  	<div className="heading-style-h5" >
 Encaissement à partir de votre site web </div>
-  	<div className="acceptez-tous-les-moyens-de-paiement-sur-votre-site-web-int-grez-une-solution-de-demandes-de-paiement-par-lien-dans-votre-solution-boutique-site-e-commerce-etc" >
+	</div>
+  	<div className="feature-descritption" >
 Acceptez tous les moyens de paiement sur votre site web. Intégrez une solution de demandes de paiement par lien dans votre solution, boutique, site e-commerce etc. </div>
 </div>
     </div>
